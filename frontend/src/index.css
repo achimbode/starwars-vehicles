@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.App {
+  color: white;
+  background-image: url('http://www.demartina.com/blog/wp-content/uploads/2015/11/227.jpg');
+  background-size: cover;
+  padding-bottom: 20px;
+}
+
+.App-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.more {
+  margin-bottom: 20px;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
